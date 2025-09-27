@@ -1,12 +1,29 @@
-# React + Vite
+# IELTS Institute
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modular React landing page for IELTS Institute, designed with scroll-triggered animations and responsive layout. Built to showcase key features, testimonials, and trust anchors with immersive rhythm and visual consistency.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
+- React
+- Tailwind CSS
+- react-awesome-reveal (for entrance animations)
+- Responsive design via Tailwind breakpoints
+- Deployed with GitHub + Vercel (optional)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Hero section with animated headline and CTA
+- Feature grid with product-style cards and zoom-in reveal
+- Testimonials with avatar layout and staggered fade-in
+- Footer with directional fade and trust links
 
-## Expanding the ESLint configuration
+## 🎯 Animation Strategy
+Scroll-triggered entrance animations using `react-awesome-reveal`:
+- `Fade` and `Zoom` components
+- `triggerOnce` for performance
+- `delay` for staggered rhythm
+- Directional control (`direction="up"`) for immersive pacing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Setup
+
+```bash
+npm install
+npm run dev
