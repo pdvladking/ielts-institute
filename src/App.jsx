@@ -1,9 +1,17 @@
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
+
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-900">
-      <h1 className="text-4xl font-extrabold text-purple-500 drop-shadow-lg">
-        Hello Raj, Tailwind is locked in 👑
-      </h1>
+    <div className="font-sans bg-white text-gray-800">
+      <Navbar />
+      <Hero />
+      <Features />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
